@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Duhig Resume</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style></style>
+
+</head>
+
+<body>
+    <div id="layout">
+    <img src="images/sea-boat.jpg" width="332" height="221"alt="Sail-boat">
+    <h1>Alex Duhig</h1>
+    <h2>IST - Integration & Application</h2>
+    <p>My name is Alex and I'm a current sophomore at Penn State. I'm studying IST and I like all things technology.</p>
+    <p>In my free time, I enjoy hanging out with friends, playing video games, and being outside.</p>
+    <p>Below is a list of IST classes that I have already taken or am currently enrolled in.</p>
+
+    <table border="1">
+        <tr>
+            <th>Class Name</th>
+            <th>Description</th>    
+            <th>Credits</th>
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-110/">IST 110</a></td>
+            <td>Introduction to Information, People And Technology</td>
+            <td rowspan="6">3</td>
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-140/">IST 140</a></td>
+            <td>Introduction to Application Programming</td>
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-210/">IST 210</a></td>
+            <td>Organization of Data</td>
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-220/">IST 220</a></td>
+            <td>Networking and Telecommunications</td>
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-242/">IST 242</a></td>
+            <td>Intermediate & Object-Oriented Application Development</td> 
+        </tr>
+
+        <tr>
+            <td><a href="https://learning.ist.psu.edu/ist-sra-courses/ist-250/">IST 250</a></td>
+            <td>Introduction to Web Design and Development</td> 
+        </tr>
+
+    </table>
+
+</body>
+
+<p id = "year"> 
+    <script>
+        var currentDate = new Date();
+        var currentYear = currentDate.getFullYear();
+        var footerTag = document.getElementById("year");
+        footerTag.innerHTML ='&copy ' + currentDate.getFullYear();
+        
+    </script>
+
+</p>
+
+
+</div>
+
+</html>
